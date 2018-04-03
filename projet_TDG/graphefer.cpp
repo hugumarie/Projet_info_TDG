@@ -165,13 +165,13 @@ void Graph::make_example()
 
     /// Les sommets doivent être définis avant les arcs
     // Ajouter le sommet d'indice 0 de valeur 30 en x=200 et y=100 avec l'image clown1.jpg etc...
-    add_interfaced_vertex(0, 30.0, 200, 100, "buffle.PNG");
-    add_interfaced_vertex(1, 60.0, 400, 100, "gnou.PNG");
-    add_interfaced_vertex(2,  50.0, 200, 300, "hippopotame.PNG");
-    add_interfaced_vertex(3,  0.0, 400, 300, "leopard.PNG");
-    add_interfaced_vertex(4,  100.0, 600, 300, "lion.PNG");
-    add_interfaced_vertex(5,  0.0, 100, 500, "phacochere.PNG");
-    add_interfaced_vertex(6,  0.0, 300, 500, "vegetaux.PNG");
+    add_interfaced_vertex(0, 30.0, 200, 100, "buffle.bmp");
+    add_interfaced_vertex(1, 60.0, 400, 100, "gnou.bmp");
+    add_interfaced_vertex(2,  50.0, 200, 300, "hippopotame.bmp");
+    add_interfaced_vertex(3,  0.0, 400, 300, "leopard.bmp");
+    add_interfaced_vertex(4,  100.0, 600, 300, "lion.bmp");
+    add_interfaced_vertex(5,  0.0, 100, 500, "phacochere.bmp");
+    add_interfaced_vertex(6,  0.0, 300, 500, "vegetaux.bmp");
     //add_interfaced_vertex(7,  0.0, 500, 500, "bad_clowns_xx3xx.jpg", 2);
 
 
@@ -182,7 +182,7 @@ void Graph::make_example()
     add_interfaced_edge(2, 1, 3, 75.0);
     add_interfaced_edge(3, 4, 1, 25.0);
     add_interfaced_edge(4, 6, 3, 25.0);
-    add_interfaced_edge(5, 7, 3, 25.0);
+    //add_interfaced_edge(5, 7, 3, 25.0);
     add_interfaced_edge(6, 3, 4, 0.0);
     add_interfaced_edge(7, 2, 0, 100.0);
     add_interfaced_edge(8, 5, 2, 20.0);

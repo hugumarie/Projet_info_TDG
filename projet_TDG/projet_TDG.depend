@@ -10,10 +10,12 @@
 
 1522754048 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\fichiers.cpp
 
-1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\main.cpp
+1522767271 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\main.cpp
 	<iostream>
+	"graphefer.h"
 	"fonctiongraph.h"
 	"Graphe.h"
+	"grman/grman.h"
 
 1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\sommet.cpp
 	"Sommet.h"
@@ -34,7 +36,7 @@
 	<fstream>
 	<iostream>
 
-1522763746 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.cpp
+1522765545 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.cpp
 	"graphefer.h"
 
 1522763746 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.h
@@ -67,7 +69,7 @@
 1522575069 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\coords.cpp
 	"coords.h"
 
-1522764268 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman.cpp
+1522766422 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman.cpp
 	<cmath>
 	<unordered_map>
 	<unordered_set>

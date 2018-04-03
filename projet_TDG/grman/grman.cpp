@@ -168,8 +168,8 @@ void init()
     set_keyboard_rate(0,0);
     install_mouse();
 
-    register_png_file_type();
-    jpgalleg_init();
+/*    register_png_file_type();
+    jpgalleg_init();*/
 
     set_color_depth(desktop_color_depth());
     if (set_gfx_mode(MODE_GRAPHIQUE,LARGEURECRAN,HAUTEURECRAN,0,0)!=0)

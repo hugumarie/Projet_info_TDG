@@ -1,7 +1,9 @@
 #include <iostream>
-
+#include "graphefer.h"
 #include "fonctiongraph.h"
 #include "Graphe.h"
+#include "grman/grman.h"
+
 
 int main()
 {
@@ -49,3 +51,4 @@ int main()
 
     return 0;
 }
+END_OF_MAIN();
