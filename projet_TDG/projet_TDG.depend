@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\arete.cpp
+	"Arete.h"
+
+1522760945 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\arete.h
+	"Sommet.h"
+
+1522760945 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\sommet.h
+	<iostream>
+
+1522754048 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\fichiers.cpp
+
+1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\main.cpp
+	<iostream>
+	"fonctiongraph.h"
+	"Graphe.h"
+
+1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\sommet.cpp
+	"Sommet.h"
+
+1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\fonctiongraph.cpp
+	"fonctiongraph.h"
+
+1522760945 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\fonctiongraph.h
+	<iostream>
+
+1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphe.cpp
+	"Graphe.h"
+
+1522760945 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphe.h
+	"fonctiongraph.h"
+	"Arete.h"
+	<vector>
+	<fstream>
+	<iostream>
+
+1522763746 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.cpp
+	"graphefer.h"
+
+1522763746 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522539041 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman_couleurs.h
+
+1522575424 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\coords.h
+	<cmath>
+
+1522756285 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\coords.cpp
+	"coords.h"
+
+1522764268 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522636919 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.cpp
+	"widget.h"
+
