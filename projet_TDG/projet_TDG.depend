@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1522761440 source:c:\users\hugum\documents\github\projet_info_tdg\projet_tdg\main.cpp
+	<iostream>
+	"fichiers.h"
+
+1522765361 source:c:\users\hugum\documents\github\projet_info_tdg\projet_tdg\fichiers.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"fichiers.h"
+	<allegro.h>
+	<vector>
+
+1522761052 c:\users\hugum\documents\github\projet_info_tdg\projet_tdg\fichiers.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"fichiers.h"
+
+1522761052 c:\users\hugum\documents\github\projet_info_tdg\projet_tdg\fichiers.h
+	<iostream>
+	<string>
+	<fstream>
+

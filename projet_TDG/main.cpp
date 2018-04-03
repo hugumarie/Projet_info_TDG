@@ -1,9 +1,10 @@
 #include <iostream>
+#include "fichiers.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    lecture_fichier_chaine("chaine_afrique.txt");
     return 0;
 }
