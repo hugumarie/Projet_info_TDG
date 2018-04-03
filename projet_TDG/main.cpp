@@ -8,20 +8,19 @@
 int main()
 {
 
-    /*std::string name;
+     /*std::string name;
 
-    std::cout << "Veillez rentrez le nom du fichier : ";
-    std::cin >> name;
+   std::cout << "Veillez rentrez le nom du fichier : ";
+    std::cin >> name;*/
 
-    Graphe g1(name);
+    Graphe g1("matrice_chaine_afrique.txt");
 
-
-
-    if((&g1)->recuperationInformation()){
+    if((&g1)->recuperationInformation())
+    {
         (&g1)->afficherMatriceAdjacente();
         (&g1)->creationAretes();
         (&g1)->affichageRelation();
-    }*/
+    }
 
      /// A appeler en 1er avant d'instancier des objets graphiques etc...
     grman::init();
@@ -31,6 +30,7 @@ int main()
 
     /// Un exemple de graphe
     Graph g;
+
     g.make_example();
 
 
