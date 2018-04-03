@@ -32,8 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="../fichier.cpp" />
+		<Unit filename="Arete.cpp" />
+		<Unit filename="Arete.h" />
+		<Unit filename="Graphe.cpp" />
+		<Unit filename="Graphe.h" />
+		<Unit filename="Sommet.cpp" />
+		<Unit filename="Sommet.h" />
 		<Unit filename="fichiers.cpp" />
+		<Unit filename="fonctiongraph.cpp" />
+		<Unit filename="fonctiongraph.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
