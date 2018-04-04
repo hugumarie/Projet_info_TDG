@@ -10,11 +10,10 @@
 
 1522754048 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\fichiers.cpp
 
-1522767271 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\main.cpp
+1522836001 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\main.cpp
 	<iostream>
 	"graphefer.h"
 	"fonctiongraph.h"
-	"Graphe.h"
 	"grman/grman.h"
 
 1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\sommet.cpp
@@ -29,21 +28,26 @@
 1522760945 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphe.cpp
 	"Graphe.h"
 
-1522760945 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphe.h
+1522836001 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphe.h
 	"fonctiongraph.h"
 	"Arete.h"
+	"Sommet.h"
 	<vector>
 	<fstream>
 	<iostream>
-
-1522767776 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.cpp
 	"graphefer.h"
 
-1522763746 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.h
+1522835909 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.cpp
+	"graphefer.h"
+	"fonctiongraph.h"
+
+1522836048 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\graphefer.h
 	<vector>
 	<map>
 	<string>
 	<memory>
+	<fstream>
+	<iostream>
 	"grman/grman.h"
 
 1522539041 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\grman.h
@@ -58,7 +62,7 @@
 1522575424 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\coords.h
 	<cmath>
 
-1522756285 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.h
+1522831326 c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.h
 	"grman.h"
 	<iostream>
 	<string>
@@ -83,6 +87,6 @@
 	<loadpng.h>
 	<jpgalleg.h>
 
-1522636919 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.cpp
+1522784429 source:c:\users\guillaume\documents\ing 2\git hub repository\projet_info_tdg\projet_tdg\grman\widget.cpp
 	"widget.h"
 

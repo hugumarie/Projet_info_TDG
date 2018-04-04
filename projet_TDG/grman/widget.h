@@ -399,7 +399,7 @@ struct ArrowItem
         m_type(type), m_position(position), m_size(size), m_proportion(proportion) {}
 };
 
-class WidgetEdge : public Widget
+class Widgetarete : public Widget
 {
     protected :
 

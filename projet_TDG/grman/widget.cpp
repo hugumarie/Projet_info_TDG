@@ -338,10 +338,10 @@ void WidgetBox::interact_focus()
 
 
 /***************************************************
-                    EDGE
+                    arete
 ****************************************************/
 
-void WidgetEdge::draw()
+void Widgetarete::draw()
 {
     if ( !(m_attach[0] && m_attach[1] ) )
         return;

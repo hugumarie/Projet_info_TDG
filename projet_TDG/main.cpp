@@ -1,7 +1,7 @@
 #include <iostream>
 #include "graphefer.h"
 #include "fonctiongraph.h"
-#include "Graphe.h"
+
 #include "grman/grman.h"
 
 
@@ -13,7 +13,9 @@ int main()
    std::cout << "Veillez rentrez le nom du fichier : ";
     std::cin >> name;*/
 
-    Graphe g1("matrice_chaine_afrique.txt");
+    Graph g1("matrice_chaine_afrique.txt");
+
+    Graph g2("matrice_chaine_afrique.txt");
 
     if((&g1)->recuperationInformation())
     {
@@ -29,7 +31,7 @@ int main()
     grman::set_pictures_path("images");
 
     /// Un exemple de graphe
-    Graph g;
+    /*Graph g;
 
     g.make_example();
 
@@ -43,7 +45,7 @@ int main()
 
         /// Mise à jour générale (clavier/souris/buffer etc...)
         grman::mettre_a_jour();
-    }
+    }*/
 
     grman::fermer_allegro();
 

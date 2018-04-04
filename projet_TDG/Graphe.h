@@ -4,9 +4,11 @@
 #include "fonctiongraph.h"
 
 #include "Arete.h"
+#include "Sommet.h"
 #include <vector>
 #include <fstream>
 #include <iostream>
+#include "graphefer.h"
 
 class Graphe
 {
