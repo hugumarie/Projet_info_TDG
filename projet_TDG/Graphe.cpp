@@ -29,6 +29,7 @@ Graphe::~Graphe()
 
 
 ///Methodes
+
 bool Graphe::allocationMatriceAdjacent(){
 
     if(m_nbSommet == 0){
@@ -40,7 +41,7 @@ bool Graphe::allocationMatriceAdjacent(){
         m_matAdjacente[i] = new int[m_nbSommet];
     }
 
-    return true;
+return true;
 }
 
 bool Graphe::liberationMatriceAdjacent(){
@@ -70,9 +71,9 @@ bool Graphe::recuperationInformation(){
 
     std::ifstream fichierEntreprise(m_nomFichier, std::ios::in);
 
-   /* if(fichierEntreprise== NULL){
-        return printMessageErreur("Le fichier de sauvegarde ne correspond pas au nom donnee ou n existe pas");
-    }*/
+   // if(fichierEntreprise== NULL){
+     //   return printMessageErreur("Le fichier de sauvegarde ne correspond pas au nom donnee ou n existe pas");
+    //}
 
     try{
         fichierEntreprise >> m_nbSommet;
@@ -152,3 +153,5 @@ void Graphe::creationAretes(){
 
     std::cout << "\nToutes les aretes ont ete cree\n\n";
 }
+
+

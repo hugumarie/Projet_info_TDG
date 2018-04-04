@@ -7,6 +7,7 @@ class Sommet
 {
     private:
         std::string m_name;
+        int m_poids;
 
     public:
 

@@ -34,3 +34,39 @@
 	<fstream>
 	<iostream>
 
+1522764068 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\arete.cpp
+	"Arete.h"
+
+1522764068 c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\arete.h
+	"Sommet.h"
+
+1522764068 c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\sommet.h
+	<iostream>
+
+1522764068 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\fichiers.cpp
+
+1522764068 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\fonctiongraph.cpp
+	"fonctiongraph.h"
+
+1522764068 c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\fonctiongraph.h
+	<iostream>
+
+1522766542 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\graphe.cpp
+	"Graphe.h"
+
+1522766542 c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\graphe.h
+	"fonctiongraph.h"
+	"Arete.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<allegro.h>
+
+1522767671 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\main.cpp
+	<iostream>
+	"fonctiongraph.h"
+	"Graphe.h"
+
+1522764068 source:c:\users\marie\desktop\cours\ing2\s2\info\piscine\github\projet_info_tdg\projet_tdg\sommet.cpp
+	"Sommet.h"
+
