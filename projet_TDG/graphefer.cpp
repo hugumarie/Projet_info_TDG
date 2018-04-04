@@ -47,9 +47,7 @@ bool Graph::liberationMatriceAdjacent(){
     return true;
 }
 
-void Graph::ajouterSommet(std::string nomSommet){
-    m_vecsommet.push_back(new sommet(nomSommet));
-}
+
 
 bool Graph::recuperationInformation(){
 
@@ -98,6 +96,9 @@ bool Graph::recuperationInformation(){
     return true;
 
  }
+ void Graph::ajouterSommet(std::string nomSommet){
+    m_vecsommet.push_back(new sommet(nomSommet));
+}
 
 void Graph::afficherMatriceAdjacente(){
 
@@ -133,9 +134,13 @@ void Graph::affichageRelation(){
     std::cout << "\n\nFin\n\n";
 }
 
-void Graph::creationArete(int dep, int arr, double weight)
+void Graph::creationArete(int ind,int dep, int arr, double weight)
 {
     m_vecarete.push_back(new arete(m_vecsommet[dep], m_vecsommet[arr],weight));
+
+    areteInterface *ei = new areteInterface(m_vecsommet[dep], m_vecsommet[arr]);
+    m_interface->m_main_box.add_child(ei->m_top_arete);
+
 }
 
 void Graph::creationAretes(){
@@ -143,10 +148,29 @@ void Graph::creationAretes(){
     for(int i = 0; i < m_nbSommet; i++){
         for(int j = 0 ; j < m_nbSommet; j++){
             if(m_matAdjacente[i][j] == 1){
-                creationArete(i,j,0);
+                creationArete(i,i,j,0);
             }
         }
     }
 
     std::cout << "\nToutes les aretes ont ete cree\n\n";
 }
+/*void Graph::add_interfaced_arete(int idx, int id_vert1, int id_vert2, double weight)
+{
+
+    if ( m_aretes.find(idx)!=m_aretes.end() )
+    {
+        std::cerr << "Error adding arete at idx=" << idx << " already used..." << std::endl;
+        throw "Error adding arete";
+    }
+
+    if ( m_sommets.find(id_vert1)==m_sommets.end() || m_sommets.find(id_vert2)==m_sommets.end() )
+    {
+        std::cerr << "Error adding arete idx=" << idx << " between vertices " << id_vert1 << " and " << id_vert2 << " not in m_sommets" << std::endl;
+        throw "Error adding arete";
+    }
+
+    areteInterface *ei = new areteInterface(m_sommets[id_vert1], m_sommets[id_vert2]);
+    m_interface->m_main_box.add_child(ei->m_top_arete);
+    m_aretes[idx] = arete(weight, ei);
+}*/

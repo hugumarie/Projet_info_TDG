@@ -128,7 +128,7 @@ class areteInterface
 
         // Le constructeur met en place les éléments de l'interface
         // voir l'implémentation dans le .cpp
-        areteInterface(sommet& dep, sommet& arr);
+        areteInterface(sommet* dep, sommet* arr);
 };
 
 
@@ -161,6 +161,9 @@ class arete
 
         arete (sommet* somd, sommet* soma,double weight=0, areteInterface *interface=nullptr) :
                 m_sommetD(somd), m_sommetA(soma),m_weight(weight), m_interface(interface)  { }
+
+                arete (double weight=0, areteInterface *interface=nullptr) :
+                    m_weight(weight), m_interface(interface)  { }
 
      /*   arete(sommet* somd, sommet* soma):
             m_sommetD(somd), m_sommetA(soma){}*/
@@ -254,7 +257,7 @@ class Graph
         void afficherMatriceAdjacente();
         void affichageRelation();
 
-        void creationArete(int dep, int arr, double weight);
+        void creationArete(int ind,int dep, int arr, double weight);
         void creationAretes();
         ///coucou
         void make_example();
